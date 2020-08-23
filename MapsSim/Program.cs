@@ -24,16 +24,17 @@ namespace MapsSim
             {
                 try
                 {
+                    Terminal.Clear();
+                    Terminal.WriteLine($"Go to http://{GetLocalIP()}:6789 on a browser in any device inside this network", ConsoleColor.Green);
                     Terminal.WriteLine("Connecting to flight simulator", ConsoleColor.Cyan);
-                    Terminal.WriteLine($"Go to http://{GetLocalIP()}:6789 on any device inside this network", ConsoleColor.Green);
                     var bridge = new SimBridge(simDataCallback);
                     break;
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Couldn't connect to flight simulator: " + e.Message);
-                    Console.WriteLine("Check if it's open with an active flight.");
-                    Console.WriteLine("Trying again in 10 seconds...");
+                    Terminal.WriteLine("Couldn't connect to flight simulator: " + e.Message, ConsoleColor.DarkYellow);
+                    Terminal.WriteLine("Check if it's open with an active flight.", ConsoleColor.DarkYellow);
+                    Terminal.WriteLine("Trying again in 10 seconds...", ConsoleColor.DarkYellow);
                     Thread.Sleep(10000);
                 }
             }
