@@ -1,5 +1,5 @@
 # maps-fs
-Use Google Maps as your in-game map.
+Use Google Maps as your in-game map on Flight Simulator 2020.
 Created this because of the limitations of the in-game map for remote areas (and the map is overall incomplete).
 
 ![Example Image](https://i.imgur.com/gAZd3Bs.jpg)
