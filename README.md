@@ -9,5 +9,5 @@ View your location on Flight Simulator 2020 in Google Maps.
 - Good ol' .NET Framework and C#
 - MSFS2020 SDK and SimConnect
 - EmbedIO webServer
-- WebSockets and vanilla js
+- WebSockets and vanilla.js
 - Google Maps API
