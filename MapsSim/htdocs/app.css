@@ -1,0 +1,30 @@
+﻿/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+body {
+    font: 20px Arial, sans-serif;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+#controls {
+    position: absolute;
+    bottom: 20px;
+    right: 64px;
+    margin: 8px;
+}
+
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
