@@ -4,7 +4,7 @@ Created this because of the limitations of the in-game map for more remote areas
 
 ## How to use
 - Download a release in the "releases" section, unzip it, and run MapsSim.exe.
-- Access the URL given to you in your computer, or any computer (or cellphone) inside your network.
+- Access the URL given to you in a browser on any computer (or cellphone) inside your network.
 - To zoom/move the map, disable the "Track" checkbox.
 
 ## Made with
