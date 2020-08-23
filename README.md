@@ -1,6 +1,6 @@
 # maps-fs
 View your location on Flight Simulator 2020 in Google Maps.
-Created this because of the limitations of the in-game map for more remote areas (and because the map is overall incomplete).
+Created this because of the limitations of the in-game map for remote areas (and the map is overall incomplete).
 
 ![Example Image](https://i.imgur.com/gAZd3Bs.jpg)
 
