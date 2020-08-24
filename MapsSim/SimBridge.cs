@@ -62,14 +62,14 @@ namespace MapsSim
             while (true)
             {
                 connection.ReceiveMessage();
-                Thread.Sleep(10);
+                Thread.Sleep(10); //not a bottleneck
             }
         }
 
         void requestData()
         {
             connection.RequestDataOnSimObject(DEFINITIONS.SimData, DEFINITIONS.SimData,
-            SimConnect.SIMCONNECT_OBJECT_ID_USER, SIMCONNECT_PERIOD.SIM_FRAME,
+            SimConnect.SIMCONNECT_OBJECT_ID_USER, SIMCONNECT_PERIOD.SECOND,
             SIMCONNECT_DATA_REQUEST_FLAG.DEFAULT, 0, 0, 0);
         }
 
